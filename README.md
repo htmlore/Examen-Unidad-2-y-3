@@ -1,4 +1,4 @@
-# Examen Unidad 1 y 2
+# Examen Unidad 2 y 3
 
 ## Integrantes: 
 1. Andrade Peralta Lorena ★ 
