@@ -16,6 +16,7 @@ if __name__ == "__main__":
     print("Clientes entre 25 y 35 años:")
     print(rango_edades(df, min_age, max_age))
     df_rango = rango_edades(df, min_age, max_age)
+    df_rango = df_rango.sort_values(by="age", ascending=True)
     df_rango.to_csv("clientes_25_35.csv", index=False)
 
     print("\nEdad media por nivel de estudios:")
