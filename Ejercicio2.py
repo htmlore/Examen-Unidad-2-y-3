@@ -23,6 +23,6 @@ if __name__ == "__main__":
     print(rango_edades(df, min_age, max_age))
     df_rango = rango_edades(df, min_age, max_age)
     df_rango = df_rango.sort_values(by="age", ascending=True)
-S
+
     print("\nEdad media por nivel de estudios:")
     print(edad_media_por_nivel_estudios(df))
